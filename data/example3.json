@@ -1,0 +1,27 @@
+{
+  "op": "add",
+  "left": {
+    "op": "add",
+    "left": {
+      "op": "char",
+      "value": {
+        "op": "number",
+        "value": 102
+      }
+    },
+    "right": {
+      "op": "char",
+      "value": {
+        "op": "number",
+        "value": 111
+      }
+    }
+  },
+  "right": {
+    "op": "char",
+    "value": {
+      "op": "number",
+      "value": 111
+    }
+  }
+}

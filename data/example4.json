@@ -1,0 +1,19 @@
+{
+  "op": "add",
+  "left": {
+    "id": 1,
+    "op": "add",
+    "left": {
+      "op": "number",
+      "value": 4
+    },
+    "right": {
+      "op": "number",
+      "value": 6
+    }
+  },
+  "right": {
+    "op": "ref",
+    "value": 1
+  }
+}

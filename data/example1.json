@@ -1,0 +1,32 @@
+{
+  "op": "add",
+  "left": {
+    "op": "add",
+    "left": {
+      "op": "number",
+      "value": 13
+    },
+    "right": {
+      "op": "number",
+      "value": 1
+    }
+  },
+  "right": {
+    "op": "add",
+    "left": {
+      "op": "add",
+      "left": {
+        "op": "number",
+        "value": 17
+      },
+      "right": {
+        "op": "number",
+        "value": 11
+      }
+    },
+    "right": {
+      "op": "number",
+      "value": 0
+    }
+  }
+}

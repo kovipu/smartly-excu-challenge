@@ -1,0 +1,32 @@
+{
+  "op": "add",
+  "left": {
+    "op": "add",
+    "left": {
+      "op": "string",
+      "value": "Seems "
+    },
+    "right": {
+      "op": "string",
+      "value": "to "
+    }
+  },
+  "right": {
+    "op": "add",
+    "left": {
+      "op": "add",
+      "left": {
+        "op": "string",
+        "value": "be "
+      },
+      "right": {
+        "op": "string",
+        "value": "right"
+      }
+    },
+    "right": {
+      "op": "string",
+      "value": "!"
+    }
+  }
+}
