@@ -1,17 +1,9 @@
 const data = require(process.argv[2]);
 
-console.log(data);
-
 const references = {};
 
 const findReference = node => {
-  /*
-  console.log('----')
-  console.log(node)
-  console.log('----')
-  */
   if (node.id !== undefined) {
-    console.log('has ID');
     references[node.id] = evaluate(node);
   }
   if (node.value) {
@@ -31,12 +23,14 @@ const evaluate = node => {
     case 'char':
       return String.fromCharCode(evaluate(node.value));
     case 'ref':
-      console.log('accessing reference ' + node.value);
       return references[node.value];
   }
 };
 
 findReference(data);
 
-console.log(references);
+while (Object.values(references).includes(NaN)) {
+  findReference(data);
+}
+
 console.log(evaluate(data));
